@@ -39,9 +39,9 @@
 
 #### to do
 
-- [ ] 重读已经读过的几篇paper，将其进行分类整理
+- [x] 重读已经读过的几篇paper，将其进行分类整理
     - 分类主要依据 method的思路、dataset performance
-- [ ] 对于Zero-shot HOI的几篇文章，对应的各个模型在基本数据集上的表现做成表
+- [x] 对于Zero-shot HOI的几篇文章，对应的各个模型在基本数据集上的表现做成表
 - [ ] 针对有code的paper进行精读，同时选出感兴趣且code质量比较高的模型
 - [ ] 考虑①中fake object生成过程的改进
 - [ ] 考虑（affordance graph）文章中利用其它信息推测 unseen action 和 unseen object 交互的 possibility 的方法
