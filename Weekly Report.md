@@ -47,3 +47,31 @@
 - [ ] 考虑（affordance graph）文章中利用其它信息推测 unseen action 和 unseen object 交互的 possibility 的方法
 - [ ] 准备讲paper
 
+
+
+### 2021-8-11
+
+#### meeting log
+
+- the construct of the Consnet
+- build_dataset
+    - image_id | human_bbox | object_bbox | human_class | object_class | human_feature | object_feature | HOI_onehot
+- graph
+    - node
+        - word_embedding
+        - other initialization
+    - edge
+        - (visual feature+word_embedding) similarity
+- data loader
+    - 'meta' 'h_conf' 'o_conf' 'h_appr' 'o_appr' 'hoi_inx' 'indicator' 'layout'
+- classification
+    - indicator_probability
+    - class_probability （600 dim）
+
+#### to do:
+
+- [ ] Train model,get the checkpoint
+- [ ] load the checkpoint and evaluate its performance
+- [ ] read Engine \ evaluate
+- [ ] Error analysis
+- [ ] check the functions which need enhance and replace them for performance analysis
